@@ -1,10 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <title>W3.CSS Template</title>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1 {
+            font-family: "Montserrat", sans-serif
+        }
+
+        img {
+            margin-bottom: -7px
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+    </style>
 </head>
 <body>
-Hello World!
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+       class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+        <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a>
+        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+    </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+    <!-- Header -->
+    <div class="w3-opacity">
+        <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+        <div class="w3-clear"></div>
+        <header class="w3-center w3-margin-bottom">
+            <h1 style="color:blue;font-size:50px;"><b>Crafted Gift Studio</b></h1>
+            <p style="font-size:20px;"><b>Hey! Searching for a customized gift for your special loved one? You're at the right place, my friend!
+
+                </br> We're here to help you with our unique gift ideas. Based on your requirements, we'll craft beautiful gifts and home decor products.
+
+                </br> Do you have any ideas for a gift that can be made using wood? Let us know, and we'll bring your vision to life!.<b>
+                </br>From personalized engravings to custom color palettes, we offer a wide range of customization options to make your gift truly special.Whether you're looking for a unique birthday gift, a thoughtful anniversary present, or a stunning piece of home decor, we have something for everyone.
+                </br>Share your ideas with us, and we'll work together to create a gift that exceeds your expectations.</b></p>
+
+            </br>
+            </br>
+            </br>
+            </br>
+            <p style="text-align: left;font-size:24px;">
+                How to order?
+            </p>
+            <p style="text-align: left;font-size:20px;">
+                </br>1. Click on the image that you want to order
+                </br>2. You will find the item number and information about what it can be customize.
+                </br>3. Whatsapp (to 0644756517) the item number and what you want to customize.
+                </br>4. We will give you a call or reply you in chat</p>
+
+
+        </header>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="w3-row-padding" id="myGrid" style="margin-bottom:128px ">
+        <div class="w3-third">
+            <a href="./html/WoodenHouseLamp.html"><img src="./images/WoodenHouseLamp.jpg" style="width:100%"></a>
+            <a href="./html/WeddingRingBox.html"><img src="./images/WeddingRingBox.jpg" style="width:100%"/></a>
+            <a href="./html/jewelleryBox.html"><img src="./images/jewelleryBox.jpeg" style="width:100%"/></a>
+            <a href="./html/TinyWoodenHouse.html"><img src="./images/TinyWoodenHouse.jpeg" style="width:100%"/></a>
+        </div>
+
+        <div class="w3-third">
+
+            <a href="./html/MapleLeafPerpetualDeskCalendar.html"><img src="./images/MapleLeafPerpetualDeskCalendar.jpg" style="width:100%"></a>
+            <a href="./html/AdventCalendarHouse.html"> <img src="./images/AdventCalendarHouse.jpg" style="width:100%"></a>
+            <a href="./html/BranchGnomeWallDecor.html"><img src="./images/BranchGnomeWallDecor.jpg" style="width:100%"></a>
+            <a href="./html/ChristmasDecorationSantaSleighAndReindeer.html"> <img src="./images/ChristmasDecorationSantaSleighAndReindeer.jpg" style="width:100%"></a>
+            <a href="./html/ChristmasDeer.html"> <img src="./images/ChristmasDeer.jpg" style="width:100%"></a>
+
+        </div>
+
+        <div class="w3-third">
+            <a href="./html/ChristmasLampHolidayLighting.html"><img src="./images/ChristmasLampHolidayLighting.jpg" style="width:100%"></a>
+            <a href="./html/ChristmasOrnaments.html"><img src="./images/ChristmasOrnaments.jpg" style="width:100%"></a>
+            <a href="./html/ChristmasTreeDecorations.html"><img src="./images/ChristmasTreeDecorations.jpeg" style="width:100%"></a>
+            <a href="./WoodenHouseLamp/ClassicApartmentBuilding.html"><img src="./images/ClassicApartmentBuilding.jpg" style="width:100%"></a>
+            <a href="./html/TreePhoneHolder6mm_600_90_3pass.html"><img src="./images/TreePhoneHolder6mm_600_90_3pass.jpg" style="width:100%"></a>
+
+        </div>
+        <div class="w3-third">
+            <a href="./html/RosePhoneHolder6mm_600_90_3pass.html"><img src="./images/RosePhoneHolder6mm_600_90_3pass.jpg" style="width:100%"></a>
+
+
+        </div>
+    </div>
+
+    <!-- End Page Content -->
+</div>
+<footer class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+</footer>
+
+<script>
+    // Toggle grid padding
+    function myFunction() {
+        var x = document.getElementById("myGrid");
+        if (x.className === "w3-row") {
+            x.className = "w3-row-padding";
+        } else {
+            x.className = x.className.replace("w3-row-padding", "w3-row");
+        }
+    }
+
+    // Open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.width = "100%";
+        document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+</script>
+
 </body>
+
 </html>
